@@ -2,7 +2,7 @@
 Name=Visual Studio Code Insiders
 Comment=Code Editing. Refined.
 GenericName=Text Editor
-Exec=/opt/vscode-insiders/code-insiders --no-sandbox --unity-launch %F
+Exec=/opt/vscode-insiders/code-insiders --no-sandbox --disable-gpu-sandbox --unity-launch %F
 Icon=vscode-insiders
 Type=Application
 StartupNotify=false
@@ -14,5 +14,5 @@ Keywords=code;vscode;vscode-insiders;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=/opt/vscode-insiders/code-insiders --no-sandbox --new-window %F
+Exec=/opt/vscode-insiders/code-insiders --no-sandbox --disable-gpu-sandbox --new-window %F
 Icon=vscode-insiders
